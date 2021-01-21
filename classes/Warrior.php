@@ -18,7 +18,7 @@ class Warrior extends Character
     {
         $attack = rand(5, 15);
         if ($this->boost) {
-            $rand = rand(17, 30);
+            $rand = rand(15, 30);
             $rand /= 10;
             $attack *= $rand;
             $this->boost = False;
